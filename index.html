@@ -1,20 +1,197 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-  <title>Mon premier site</title>
-  <style>
-    body{
-      font-family: Arial;
-      text-align: center;
-      margin-top: 100px;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Assistance Informatique - Genève</title>
+
+<style>
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin:0;
+background:#f4f6f8;
+color:#333;
+}
+
+header{
+background:#1f2937;
+color:white;
+padding:40px;
+text-align:center;
+}
+
+header h1{
+margin:0;
+font-size:32px;
+}
+
+header p{
+font-size:18px;
+margin-top:10px;
+}
+
+.container{
+width:90%;
+max-width:1000px;
+margin:auto;
+padding:40px 0;
+}
+
+h2{
+color:#1f2937;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+margin-top:20px;
+}
+
+.service{
+background:white;
+padding:20px;
+border-radius:8px;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.service h3{
+margin-top:0;
+}
+
+.contact{
+background:#e5e7eb;
+padding:30px;
+border-radius:8px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#1f2937;
+color:white;
+margin-top:40px;
+}
+
+</style>
+
 </head>
 
 <body>
 
-<h1>Bienvenue sur mon site</h1>
-<p>Ce site est publié avec GitHub Pages.</p>
+<header>
+<h1>Assistance Informatique à Domicile</h1>
+<p>Dépannage, installation et assistance informatique à Genève</p>
+</header>
+
+<div class="container">
+
+<section>
+
+<h2>À propos</h2>
+
+<p>
+Je propose des services de dépannage et d’assistance informatique pour particuliers et petites entreprises.
+Que ce soit pour un problème technique, une installation ou une configuration réseau, je vous accompagne pour
+résoudre rapidement vos problèmes informatiques.
+</p>
+
+</section>
+
+<section>
+
+<h2>Mes services</h2>
+
+<div class="services">
+
+<div class="service">
+<h3>Dépannage PC & Mac</h3>
+<p>
+Diagnostic et résolution de problèmes sur ordinateurs Windows et macOS :
+ordinateur lent, erreurs système, virus, problèmes logiciels.
+</p>
+</div>
+
+<div class="service">
+<h3>Smartphones & Tablettes</h3>
+<p>
+Assistance pour configuration, transfert de données,
+installation d'applications et résolution de problèmes sur téléphones et tablettes.
+</p>
+</div>
+
+<div class="service">
+<h3>Installation logiciels</h3>
+<p>
+Installation et configuration de logiciels,
+mises à jour système et optimisation de votre ordinateur.
+</p>
+</div>
+
+<div class="service">
+<h3>Périphériques</h3>
+<p>
+Installation et configuration d’imprimantes,
+scanners, écrans, webcams et autres périphériques.
+</p>
+</div>
+
+<div class="service">
+<h3>Réseau & Wi-Fi</h3>
+<p>
+Installation et configuration de réseau domestique,
+optimisation du Wi-Fi et résolution des problèmes de connexion Internet.
+</p>
+</div>
+
+<div class="service">
+<h3>Conseil informatique</h3>
+<p>
+Conseil pour l’achat de matériel,
+sécurisation de votre ordinateur et bonnes pratiques informatiques.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section style="margin-top:40px">
+
+<h2>Contact</h2>
+
+<div class="contact">
+
+<p>
+📍 Genève et alentours
+</p>
+
+<p>
+📧 Email : votreemail@email.com
+</p>
+
+<p>
+📞 Téléphone : +41 XX XXX XX XX
+</p>
+
+<p>
+Intervention rapide à domicile sur rendez-vous.
+</p>
+
+</div>
+
+</section>
+
+</div>
+
+<footer>
+
+<p>
+© 2026 Assistance Informatique Genève
+</p>
+
+</footer>
 
 </body>
 </html>
